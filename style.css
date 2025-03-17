@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+body{
+    background-color:rgb(69, 74, 80)
+}
+
+.cabecalho{
+    font-family: "Montserrat", sans-serif;
+}
+
+.caixinhas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50em;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+#user_1_box{
+    width: 23em;
+    height: 23em;
+    background-color: rgb(5, 185, 140);
+    transition: 0.4s;
+    border-radius: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#user_1_box:hover{
+    width: 24em;
+    height: 24em;
+    transition: 0.4s;
+    background-color: rgb(1, 221, 49);
+}
+
+#user_2_box{
+    width: 23em;
+    height: 23em;
+    background-color: rgb(116, 4, 180);
+    transition: 0.4s;
+    border-radius: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#user_2_box:hover{
+    width: 24em;
+    height: 24em;
+    transition: 0.4s;
+    background-color: rgb(176, 1, 245);
+}
+
+#user_3_box{
+    width: 23em;
+    height: 23em;
+    background-color: rgb(177, 180, 8);
+    transition: 0.4s;
+    border-radius: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#user_3_box:hover{
+    width: 24em;
+    height: 24em;
+    transition: 0.4s;
+    background-color: rgb(248, 232, 0);
+}
+
+#user_4_box{
+    width: 23em;
+    height: 23em;
+    background-color: rgb(168, 6, 6);
+    transition: 0.4s;
+    border-radius: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#user_4_box:hover{
+    width: 24em;
+    height: 24em;
+    transition: 0.4s;
+    background-color: rgb(253, 1, 1);
+}
+
+.usuarios{
+    text-align: center;
+}
+
+#mateus_name{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+#henry_name{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+#vinicius_name{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+#emanuel_name{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+#henry{
+    width: 15em;
+    border-radius: 50%;
+    border:rgb(176, 1, 245) 1em solid ;
+    padding: 1em;
+}
+
+#henry:hover{
+    width: 16em;
+    transition: 0.4s;
+    border:rgb(116, 4, 180) 1em solid ;
+}
+
+#mateus{
+    width: 15em;
+    border-radius: 50%;
+    border:rgb(1, 221, 49) 1em solid ;
+    padding: 1em;
+}
+
+#mateus:hover{
+    width: 16em;
+    transition: 0.4s;
+    border:rgb(5, 185, 140) 1em solid ;
+}
+
+#vinicius{
+    width: 15em;
+    border-radius: 50%;
+    border:rgb(248, 232, 0) 1em solid ;
+    padding: 1em;
+}
+
+#vinicius:hover{
+    width: 16em;
+    transition: 0.4s;
+    border:rgb(177, 180, 8) 1em solid ;
+}
+
+#emanuel{
+    width: 15em;
+    border-radius: 50%;
+    border:rgb(253, 1, 1) 1em solid ;
+    padding: 1em;
+}
+
+#emanuel:hover{
+    width: 16em;
+    transition: 0.4s;
+    border:rgb(168, 6, 6) 1em solid ;
+}
+
